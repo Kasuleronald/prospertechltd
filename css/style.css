@@ -229,7 +229,9 @@ ul {
     width: 100%;
 }
 
-/* Wide Centered Submenu */
+/* [Previous base styles remain exactly the same until .sub-menu] */
+
+/* Wide Centered Submenu with Two Columns */
 .menu-item-has-children {
     position: static;
 }
@@ -265,26 +267,32 @@ ul {
     border-bottom: 10px solid var(--white);
 }
 
-.sub-menu li {
-    width: 100%;
-    margin-bottom: 12px;
-    padding: 0;
-    border-bottom: none;
-}
-
 .sub-menu-column {
     display: flex;
     flex-direction: column;
 }
 
+.sub-menu li {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 0;
+}
+
 .sub-menu a {
-    display: block;
+    display: flex;
+    align-items: center;
     padding: 10px 15px;
     color: var(--text-color);
     font-size: 15px;
     background-color: transparent;
     transition: all 0.2s ease;
     border-radius: 4px;
+}
+
+.sub-menu a i {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
 }
 
 .sub-menu a:hover {
@@ -297,6 +305,17 @@ ul {
     opacity: 1;
     visibility: visible;
     transform: translateX(-50%) translateY(10px);
+}
+
+/* [Rest of desktop styles remain the same] */
+
+/* Add left/right headers if needed */
+.sub-menu-header {
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .header-right {
