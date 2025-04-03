@@ -1,7 +1,8 @@
 /* Base Styles */
 :root {
-    --primary-color: #2d3e50;
-    --secondary-color: #1bbc9b;
+    --primary-color: #00284a;
+    --secondary-color: #034f91;
+    --secondary-color-light: #55b0ff;
     --accent-color: #e74c3c;
     --text-color: #333;
     --light-text: #777;
@@ -85,7 +86,7 @@ ul {
 }
 
 .btn-primary:hover {
-    background-color: #16a085;
+    background-color: #00284a;
     color: var(--white);
 }
 
@@ -149,7 +150,7 @@ ul {
 
 .contact-info i {
     margin-right: 5px;
-    color: var(--secondary-color);
+    color: var(--secondary-color-light);
 }
 
 .social-icons {
@@ -296,7 +297,7 @@ ul {
 }
 
 .sub-menu a:hover {
-    background-color: rgba(27, 188, 155, 0.1);
+    background-color: rgba(11, 183, 222, 0.1);
     color: var(--secondary-color);
     transform: translateX(5px);
 }
@@ -756,7 +757,7 @@ ul {
     left: 0;
     width: 50px;
     height: 2px;
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color-light);
 }
 
 .footer-logo img {
@@ -783,7 +784,7 @@ ul {
 }
 
 .footer-social a:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color-light);
     color: var(--white);
 }
 
@@ -810,13 +811,13 @@ ul {
 
 .footer-contact i {
     margin-right: 10px;
-    color: var(--secondary-color);
+    color: var(--secondary-color-light);
     font-size: 18px;
     margin-top: 3px;
 }
 
 .footer-bottom {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #011e36;
     padding: 20px 0;
     font-size: 14px;
 }
@@ -841,7 +842,7 @@ ul {
 }
 
 .footer-menu a:hover {
-    color: var(--secondary-color);
+    color: var(--secondary-color-light);
 }
 
 /* Back to Top Button */
@@ -871,7 +872,7 @@ ul {
 }
 
 .back-to-top:hover {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color-light);
     transform: translateY(-5px);
 }
 
@@ -903,7 +904,7 @@ ul {
 
 .chat-button:hover {
     transform: scale(1.1);
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color-light);
 }
 
 .chat-window {
